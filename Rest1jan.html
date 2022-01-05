@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <h1 style="text-align: center;">output in the console</h1>
+    <script>
+       const min1 = (...arr) => {
+    
+    var min=arr[0];
+    for(var i = 0; i < arr.length; i++) {
+        if(arr[i]<min){
+            min=arr[i];
+        }
+    }
+    console.log(min);
+}
+
+min1(5,2,8,91, 2, 3);
+min1(54,215,58,412,21);
+
+min1();
+    </script>
+    
+</body>
+</html>
